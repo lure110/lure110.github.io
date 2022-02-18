@@ -1,4 +1,42 @@
 body{
     background: #000000;
     color: white;
+    font-size: 20px;
+}
+
+#lang-selector, #main-nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px #FFFFFF;
+}
+#lang-selector{
+    width: 150px;
+}
+#main-nav{
+    width: 450px;
+    right: 0;
+}
+
+#main-board{
+    max-width: 1150px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.about_me{
+    background-color: red;
+    min-height: 100px;
+}
+.career{
+    background-color: green;
+    min-height: 100px;
+}
+.projects{
+    background-color: purple;
+    min-height: 100px;
+}
+.contact{
+    background-color: yellow;
+    min-height: 100px;
 }
